@@ -13,6 +13,9 @@
   background-repeat: no-repeat;
 }
 
+.mainbg{
+  background-color: var(--main-color);
+}
 
 .main-text{
   color: var(--main-color);
