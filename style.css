@@ -18,10 +18,6 @@
   color: var(--main-color);
 }
 
-.assist{
-  display: flex;
-  justify-content: space-evenly;
-}
 
 .center{
   align-items: baseline;
@@ -34,3 +30,9 @@
   display: flex;
   align-items: center;
 }
+
+  @media (max-width: 767px) {
+    .disappear{
+      display: none;
+    }
+  }
