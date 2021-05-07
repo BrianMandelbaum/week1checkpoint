@@ -1,0 +1,36 @@
+:root{
+  --main-color: #07AB80
+
+}
+
+.source-sans{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.inimage{
+  height: 100vh;
+  background-image: url("https://media.wired.com/photos/5f63ea43470e71528f4f8876/16:9/w_2400,h_1350,c_limit/Gear-Laptop-Monitor-159167665.jpg");
+  background-repeat: no-repeat;
+}
+
+
+.main-text{
+  color: var(--main-color);
+}
+
+.assist{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.center{
+  align-items: baseline;
+}
+
+.rectangle{
+  width: 8px;
+  height: 93px;
+  background-color: var(--main-color);
+  display: flex;
+  align-items: center;
+}
