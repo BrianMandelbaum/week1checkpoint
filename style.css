@@ -26,18 +26,15 @@
   align-items: baseline;
 }
 
-.rectangle{
-  width: 8px;
-  height: 93px;
-  background-color: var(--main-color);
-  display: flex;
-  align-items: center;
-}
-
   @media (max-width: 767px) {
     .disappear{
       display: none;
     }
+    .change{
+      display: flex;
+      align-items: flex-start;
+    }
+
   }
 
 .transformit {
@@ -59,3 +56,9 @@
   justify-content: center;
   font-size: 48px;
 }
+
+  @media (max-width: 767px) {
+    .ordertop{
+      order: -1;
+    }
+  }
