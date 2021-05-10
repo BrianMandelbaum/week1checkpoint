@@ -39,3 +39,23 @@
       display: none;
     }
   }
+
+.transformit {
+  transform: translate(0, 30px);
+  position: absolute;
+}
+
+.button-move{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.plain-bg{
+  background-color: white;
+}
+
+.stars{
+  display: flex;
+  justify-content: center;
+  font-size: 48px;
+}
